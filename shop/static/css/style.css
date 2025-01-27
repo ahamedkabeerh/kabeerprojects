@@ -1,0 +1,104 @@
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500;700&display=swap');
+</style>
+html{
+  font-size:14px;
+}
+body{
+  font-family:'Noto Sans',sans-serif;
+}
+a{
+  text-decoration:none;
+}
+.carousel-item img {
+  object-fit: cover;
+  object-position: top;
+  height: 70vh;
+  overflow: hidden;
+}
+.old_price{
+  font-weight:bold;
+  color:red;
+}
+.new_price{
+  font-weight:bold;
+  background-color:green;
+  color:white;
+  padding: 2px;
+  border-radius: 5px;
+  margin-bottom: 2px;
+}
+.pic-box{
+position: relative;
+}
+
+.hot{
+background-color:orangered;
+color:white;
+width: 50px;
+text-align:center;
+font-weight: bold;
+display:inline;
+border-radius:5px;
+padding:5px;
+position:absolute;
+top:0;
+right: 20px;
+z-index:10;
+}
+
+
+
+.but{
+text-align:center;
+display:inline;
+border-radius:5px;
+padding:5px;
+position:absolute;
+top:10px;
+left:470px;
+z-index:10;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  color: #444444;
+}
+
+a {
+  color: #e43c5c;
+  text-decoration: none;
+}
+.card.img.top{
+    border-radius:500px;
+    padding:200px;
+    margin-top:200px;
+    position:absolute;
+    left:50%;
+
+}
+.card{
+    background-color:#fff;
+    position:relative;
+    border-radius:20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+}
+
+card.body{
+    padding:25px;
+    margin-top:30px;
+}
+a:hover {
+  color: #ea6981;
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  /* font-family: "Nunito", sans-serif; */
+  font-family: cursive;
+}
